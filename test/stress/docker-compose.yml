@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  vegeta:
+    build: .
+    network_mode: "host"
+    volumes:
+      - .:/go/tests

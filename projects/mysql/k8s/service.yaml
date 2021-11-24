@@ -1,9 +1,0 @@
-kind: Service
-apiVersion: v1
-metadata:
-  name: mysql
-spec:
-  selector:
-    app: mysql
-  ports:
-  - port: 3306
